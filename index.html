@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+        <link rel="shortcut icon" href="img/logo.png">
+        <link
+            href="bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header class="welcome-section text-center">
+            <div class="overlay"><br>
+                <h1 class="display-4 fw-bold">Agencia de Gestion de Eventos</h1>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="img/logotipo.png" alt="Logo de Age" width="100px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="html/eventos.html">Eventos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="php/login.php">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="video-container">
+            <video src="img/video.mp4" controls autoplay muted loop poster="img/poster-image.jpg">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+
+        <section class="age-section">
+            <div class="intro">
+                <h2>Agencia De Eventos</h2>
+                <p class="card-text">En nuestra agencia, nos dedicamos a hacer realidad cada detalle de tu evento ideal. Contamos con un equipo apasionado y profesional, especializado en la organización de todo tipo de eventos: desde bodas, cumpleaños y aniversarios, hasta lanzamientos corporativos, conferencias, y espectáculos de gran envergadura. Nos encargamos de cada etapa del proceso: planeación, coordinación, decoración y gestión de proveedores, asegurándonos de que todo salga perfecto.</p>
+                <p>Ofrecemos servicios personalizados para crear experiencias memorables, adaptándonos a tus necesidades y preferencias, y con una atención minuciosa en los detalles. Contamos con una amplia red de colaboradores: desde catering de primera calidad y proveedores de tecnología audiovisual, hasta diseñadores de espacios y entretenimiento en vivo. Todo, para garantizar que tu evento sea único, memorable y que refleje tu estilo.</p>                          
+                <p>Confía en nosotros para transformar tus ideas en una experiencia inolvidable. En nuestra agencia, tu evento no solo será especial, sino verdaderamente excepcional.</p>
+            </div>
+        <div class="container text-center">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-4"><br><br><br><br>
+                    <div class="card shadow-lg">                      
+                        <div class="map-container mt-4">
+                            <h4>Ubicación</h4>   
+                                <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.934462007163!2d-75.29413222565144!3d2.8352209550034937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b6d83b49354f7%3A0xb4c45a494299aafa!2sClub%20Campestre%20de%20Neiva!5e0!3m2!1ses!2sco!4v1731097091886!5m2!1ses!2sco"
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="card-body">                        
+                            <a href="html/eventos.html" class="btn btn-primary">Agendar Evento</a>
+                        </div>                     
+                    </div>
+                </div>
+                
+        
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <!-- Sistema de calificación con estrellas -->
+                             <input type="text" placeholder="ingresar nombre"><br><br>
+                             <textarea placeholder="Escribe tu Comentario..." class="no-resize"></textarea>
+    <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5">&#9733;</label>
+
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">&#9733;</label>
+
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">&#9733;</label>
+
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">&#9733;</label>
+
+        <input type="radio" id="star1" name="rating" value="1">
+        <label for="star1">&#9733;</label>
+    </div>
+
+    <!-- Botón de reiniciar -->
+    <a href="index.html"><button class="reset-btn">Enviar</button></a>
+                        </div>
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/coment1.png" style="height: 300px;"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/coment2.png" style="height: 300px;"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/coment3.png" style="height: 300px;"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/coment4.png" style="height: 300px;"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplaying"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section><br><br>
+
+    <section class="team-section">
+        <div class="intro">
+            <h2>Bienvenidos a Nuestro Equipo de Desarrollo</h2>
+            <p>
+                Somos un equipo de desarrolladores comprometidos con la creación de soluciones digitales innovadoras y funcionales.
+                Cada uno de nosotros aporta su experiencia y habilidades para hacer realidad proyectos digitales de calidad, con un enfoque
+                en la eficiencia y el diseño. Juntos, transformamos ideas en experiencias digitales excepcionales.
+            </p>
+        </div>
+    
+        <div class="team-members">
+            <div class="member">
+                <img src="img/mauro.jpg" alt="Desarrollador 3">
+                <h3>Mauro Suarez</h3>
+                <p>Desarrollador full-stack con experiencia en integración y optimización de sistemas.</p>
+            </div>
+            <div class="member">
+                <img src="img/frank.jpg" alt="Desarrollador 1">
+                <h3>Frank Chambo</h3>
+                <p>Especialista en Backend, apasionado por crear estructuras robustas y eficientes.</p>
+            </div>
+            <div class="member">
+                <img src="img/Jaider.jpg" alt="Desarrollador 5">
+                <h3>Jaider Molina</h3>
+                <p>Desarrollador de aplicaciones móviles, especializado en soluciones para dispositivos inteligentes.</p>
+            </div><br>
+            <div class="member">
+                <img src="img/breiny.jpg" alt="Desarrollador 4">
+                <h3>Breiny Cardozo</h3>
+                <p>Experta en UX/UI, enfocada en la experiencia del usuario y el diseño visual.</p>
+            </div>
+            <div class="member">
+                <img src="img/cindy.jpg" alt="Desarrollador 2">
+                <h3>Cindy Epia</h3>
+                <p>Experta en Frontend, con un enfoque en crear interfaces intuitivas y dinámicas.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <footer class="footer bg-dark text-white pt-4 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Contáctenos:</h4>
+                    <p><strong>NEIVA - HUILA</strong><br><strong>Celular:</strong> +91-321 567 3567<br><strong>Email:</strong> <a href="mailto:AGE@gmail.com">AGE@gmail.com</a></p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <h4>Síguenos:</h4>
+                    <a href="https://facebook.com" target="_blank"><img src="img/facebook.jpeg" alt="Facebook" class="social-icon"></a>
+                    <a href="https://web.whatsapp.com" target="_blank"><img src="img/WhatsApp.png" alt="WhatsApp" class="social-icon"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="img/hashtag.png" alt="Instagram" class="social-icon"></a>
+                </div>
+            </div>
+            <div class="footer-bottom text-center pt-3">
+                &copy; 2024. Todos los Derechos Reservados - AGE.<br>
+                <a href="http://www.agereservas.com" target="_blank">www.agereservas.com</a>
+            </div>
+        </div>
+    </footer>    
+   <!-- Contenedor del Chat -->
+<div id="chat-container" class="chat-container">
+    <div id="chat-box" class="chat-box">
+        <div class="chat-messages">
+            <div class="bot-message">
+                ¡Hola! Soy el asistente de la Agencia de Gestión de Eventos. ¿Cómo puedo ayudarte hoy?
+            </div>
+        </div>
+        <input type="text" id="user-input" placeholder="Escribe un mensaje..." onkeydown="checkEnter(event)">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+</div>
+
+<!-- Chat bubble button -->
+<div class="chat-bubble" onclick="toggleChat()">
+    <img src="img/bot.png" alt="bot" width="120x">
+</div>
+
+<!-- Chat container -->
+<div class="chat-container" id="chatContainer">
+    <div class="chat-header">
+        <span>Asistente AGE</span>
+        <span class="close-chat" onclick="toggleChat()">✖</span>
+    </div>
+    <div class="chat-box" id="chatBox">
+        <div class="bot-message">
+            ¡Hola! Soy el asistente virtual de AGE. ¿En qué puedo ayudarte hoy?
+        </div>
+    </div>
+    <div class="chat-input-container">
+        <input type="text" class="chat-input" id="userInput" placeholder="Escribe tu mensaje..." onkeypress="handleKeyPress(event)">
+        <button class="send-button" onclick="sendMessage()">Enviar</button>
+    </div>
+</div>
+
+<script>
+    function toggleChat() {
+        const chatContainer = document.getElementById('chatContainer');
+        chatContainer.classList.toggle('active');
+    }
+
+    function handleKeyPress(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    }
+
+    function sendMessage() {
+        const input = document.getElementById('userInput');
+        const message = input.value.trim();
+        
+        if (message === '') return;
+        
+        displayMessage(message, 'user');
+        input.value = '';
+        
+        // Procesar respuesta del bot
+        setTimeout(() => {
+            const response = getBotResponse(message.toLowerCase());
+            displayMessage(response, 'bot');
+        }, 500);
+    }
+
+    function displayMessage(message, sender) {
+        const chatBox = document.getElementById('chatBox');
+        const messageDiv = document.createElement('div');
+        messageDiv.className = sender + '-message';
+        messageDiv.textContent = message;
+        chatBox.appendChild(messageDiv);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function getBotResponse(message) {
+        const responses =  {
+    'hola': '¡Hola! Como puedo ayudarte hoy? 😊',
+    'adios': '¡Hasta luego! Que tengas un excelente día. 👋',
+    'gracias': 'De nada, estoy para servirte. 🤝',
+    'que servicios ofrecen': '📅 Ofrecemos una variedad de servicios para distintos tipos de eventos. Estos son algunos de nuestros paquetes más populares:\n\n- *Cumpleaños* 🎂\n- *Bodas* 💒\n- *XV Años* 👗\n- *Baby Showers* 👶\n- *Despedidas de Solteros* 🍸\n- *Graduaciones* 🎓\n\nSi deseas más información sobre algún servicio en particular, ¡no dudes en preguntar!',
+    'Nuestro de servios': '📅 Ofrecemos una variedad de servicios para distintos tipos de eventos. Estos son algunos de nuestros paquetes más populares:\n\n- *Cumpleaños* 🎂\n- *Bodas* 💒\n- *XV Años* 👗\n- *Baby Showers* 👶\n- *Despedidas de Solteros* 🍸\n- *Graduaciones* 🎓\n\nSi deseas más información sobre algún servicio en particular, ¡no dudes en preguntar!',
+    'horarios': '🕒 Nuestro horario de atención es:\n- Lunes a Viernes: 8:00 AM - 6:00 PM\n- Sábados: 9:00 AM - 2:00 PM\n\n¡Te esperamos con gusto durante este horario!',
+    'Horarios': '🕒 Nuestro horario de atención es:\n- Lunes a Viernes: 8:00 AM - 6:00 PM\n- Sábados: 9:00 AM - 2:00 PM\n\n¡Te esperamos con gusto durante este horario!',
+    'donde estan ubicados': '📍 Estamos ubicados en el *Club Campestre* en Huila, Colombia. Si necesitas indicaciones o más detalles sobre cómo llegar, no dudes en pedírmelo. También puedes contactarnos al 📞 +91-321 567 3567.',
+    'como puedo hacer una reserva': '📝 Puedes reservar de tres formas:\n1. 📞 Llamando al +91-321 567 3567\n2. 📧 Enviando un correo a AGE@gmail.com\n3. 🏢 Visitando nuestra oficina\n\n¿Te gustaría hacer una reserva ahora? Si es así, haz clic aquí para reservar: [Reservar](html/cumpleaños.html)',
+    'quiero hacer mi reserva': '📝 Puedes reservar de tres formas:\n1. 📞 Llamando al +91-321 567 3567\n2. 📧 Enviando un correo a AGE@gmail.com\n3. 🏢 Visitando nuestra oficina\n\nHaz clic aquí para hacer tu reserva ahora: [Reservar](html/cumpleaños.html)',
+    'reservar': '📝 ¿Quieres hacer una reserva? Puedes hacerlo llamando al +91-321 567 3567, enviando un correo a AGE@gmail.com o visitando nuestra oficina. Haz clic aquí para reservar ahora: [Reservar](html/cumpleaños.html)',
+    'que incluye el paquete de bodas': '💒 Nuestro paquete de bodas incluye:\n- Decoración elegante\n- Catering gourmet\n- Música en vivo/DJ\n- Fotografía profesional\n- Coordinación del evento\n¿Te gustaría conocer más detalles?',
+    'tienen descuentos': '💰 En este momento, no ofrecemos descuentos en nuestros paquetes. Todos nuestros servicios están cuidadosamente diseñados para garantizar la mejor calidad para tu evento.',
+    'aceptan tarjetas de credito': '💳 Aceptamos *dos métodos de pago* en Colombia:\n1. *Billeteras digitales* (como Nequi, Daviplata, o cualquier billetera digital colombiana), con solo enviar la *confirmación de pago.\n2. **Pago presencial* en nuestra oficina, con un temporizador de *24 horas* para completar el pago. Si necesitas más detalles sobre estos métodos, no dudes en preguntarme.',
+    'Formas de pagos': '💳 Aceptamos *dos métodos de pago* en Colombia:\n1. *Billeteras digitales* (como Nequi, Daviplata, o cualquier billetera digital colombiana), con solo enviar la *confirmación de pago.\n2. **Pago presencial* en nuestra oficina, con un temporizador de *24 horas* para completar el pago. Si necesitas más detalles sobre estos métodos, no dudes en preguntarme.',
+    'precio': '💵 Los precios varían según el tipo de evento, la cantidad de invitados y los servicios incluidos. Cada paquete es personalizado según tus necesidades. Si tienes una idea más clara sobre el tipo de evento o los servicios que deseas, puedo proporcionarte una estimación de precios. ¿Sobre qué paquete te gustaría saber más?',
+    'Precios': '💵 Los precios varían según el tipo de evento, la cantidad de invitados y los servicios incluidos. Cada paquete es personalizado según tus necesidades. Si tienes una idea más clara sobre el tipo de evento o los servicios que deseas, puedo proporcionarte una estimación de precios. ¿Sobre qué paquete te gustaría saber más?',
+    'Reservas': '📝 ¿Quieres hacer una reserva? Puedes hacerlo llamando al +91-321 567 3567, enviando un correo a AGE@gmail.com o visitando nuestra oficina. Haz clic aquí para reservar ahora: [Reservar](html/cumpleaños.html)',
+    'quiero mas informacion': '📚 Claro, ¿sobre qué te gustaría saber más?\n- *Paquetes disponibles\n- **Servicios adicionales\n- **Fechas disponibles\n- **Promociones actuales*\n\n¡Estoy aquí para brindarte toda la información que necesites!',
+    'tienen disponibilidad': '📆 La disponibilidad varía según la fecha.\n¿Para qué fecha estás planeando tu evento?',
+    'necesito ayuda': '🤝 ¡Por supuesto! Si necesitas ayuda, puedes contactarnos directamente por:\n- 📞 Llamada al +91-321 567 3567\n- 📧 Envíanos un correo a AGE@gmail.com\n- 🏢 Visítanos en nuestra oficina en el Club Campestre, Huila.\n\nEstaremos encantados de asistirte con cualquier consulta. ¿Cómo te gustaría proceder?',
+    'que incluye el paquete de cumpleaños': '🎂 El paquete de cumpleaños incluye:\n- Decoración temática\n- Catering personalizado\n- Música y animación\n- Pastel personalizado\n- Coordinación del evento',
+    'que incluye el paquete de xv años': '👗 El paquete de XV años incluye:\n- Decoración elegante\n- Catering completo\n- Música y DJ\n- Fotografía/Video\n- Coordinación del evento\n- Coreografía',
+    'que incluye el paquete de baby shower': '👶 El paquete de Baby Shower incluye:\n- Decoración temática\n- Mesa de postres\n- Juegos y actividades\n- Catering especial\n- Coordinación del evento',
+    'ofrecen servicios adicionales': '✨ Sí, ofrecemos servicios adicionales como:\n- Fotografía profesional\n- Video/Drone\n- Hora loca\n- Barman\n- Transportes\n- Shows especiales',
+    'no entiendo': 'Lo siento, aún no tengo suficiente información sobre esa pregunta ya que estamos en proceso de programación. 😅\nSin embargo, puedes preguntarme sobre:\n- Nuestros servicios\n- Precios\n- Reservas\n- Horarios\n- Ubicación\n- Formas de pago'
+};
+
+
+        // Buscar la mejor coincidencia para la respuesta
+        for (let key in responses) {
+            if (message.includes(key)) {
+                return responses[key];
+            }
+        }
+
+        return "Lo siento, aún no tengo suficiente información sobre esa pregunta ya que estamos en proceso de programación. 😅\nSin embargo, puedes preguntarme sobre:\n- Nuestros servicios\n- Precios\n- Reservas\n- Horarios\n- Ubicación\n- Formas de pago"
+
+    
+    }
+
+</script>
+</body>
+</html>
